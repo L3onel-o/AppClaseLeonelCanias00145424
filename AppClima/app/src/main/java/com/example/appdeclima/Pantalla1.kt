@@ -14,8 +14,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Explore
 
 @Composable
 fun Pantalla1() {
@@ -34,7 +32,7 @@ fun Pantalla1() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        // Nombre y temperatura
+
         Card(
             modifier = Modifier
                 .fillMaxWidth()
@@ -67,8 +65,6 @@ fun Pantalla1() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Icono brújula
-        // Icono brújula
         Card(
             modifier = Modifier
                 .size(140.dp)
@@ -135,9 +131,8 @@ fun Pantalla1() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Botón ACTUALIZAR
         Button(
-            onClick = { /* Acción */ },
+            onClick = { /* No hara nada ya q solo es visual*/ },
             modifier = Modifier.padding(horizontal = 32.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White.copy(alpha = 0.2f)

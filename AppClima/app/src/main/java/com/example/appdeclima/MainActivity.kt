@@ -10,13 +10,15 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        //Ver pantalla 1
         setContent {
             Pantalla1()
         }
 
         //Aca para ver la pantalla 2
 //        setContent {
-//            Pantalla1()
+//            Pantalla2()
 //        }
     }
 }
